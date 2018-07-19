@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+import Header from './header.js';
+import Card from './card.js'
+
+class Home extends Component {
   render() {
     return (
-      <div>
-        <h1>DevCamp React Starter</h1>
+      <div className="home">
+        { Header() }
+        <Card />
       </div>
     );
   }
 }
+
+export default Home;
