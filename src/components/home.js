@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './header.js';
-import Card from './card.js'
+import Card from './card.js';
 
 class Home extends Component {
   render() {
